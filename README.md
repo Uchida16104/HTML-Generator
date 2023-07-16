@@ -22,6 +22,7 @@ composeElement(tag, type, name, cssText, input);
 
 * input: It can be written the text you want to enter.
 
+## Information
 Published: 16th, Jul, 2023.
 
 Developer / Copyright: Hirotoshi Uchida
