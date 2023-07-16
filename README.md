@@ -6,7 +6,8 @@ This JavaScript extension works mainly by embedding it within the "body" tag of 
 
 
 ## Usage
-1. Load the script within <script> tag.
+1. load the following URL into the <script> tag.
+https://html-generator.glitch.me/index.js
 2. Write the following script in <script> tag.
 composeElement(tag, type, name, cssText, input);
 
