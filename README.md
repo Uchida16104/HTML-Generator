@@ -1,8 +1,8 @@
 # HTML-Generator
-This JavaScript extension works mainly by embedding it within the "<body>" tag of the html file.
+This JavaScript extension works mainly by embedding it within the "body" tag of the html file.
 
 ## Overview
-This JavaScript extension works mainly by embedding it within the "<body>" tag of the html file.
+This JavaScript extension works mainly by embedding it within the "body" tag of the html file.
 
 
 ## Usage
@@ -12,7 +12,7 @@ composeElement(tag, type, name, cssText, input);
 
 
 ### *Description
-* tag: It shows tag name like "<h1>", "<p>", "<li>", etc...
+* tag: It shows tag name like "h1", "p", "li", etc...
 
 * type: It shows attribute name like class, id, etc...
 
