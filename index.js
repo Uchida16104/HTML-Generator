@@ -1,7 +1,8 @@
-function composeElement(tag, type, name, cssText, input) {
-    var element = document.createElement(tag);
+function composeElement(parentTag, index, childTag, type, name, cssText, input) {
+    var element = document.createElement(childTag);
     element.setAttribute(type, name);
     element.style.cssText = cssText;
     element.textContent = input;
-    document.body.appendChild(element);
+    var parent = document.getElementsByTagName(parentTag)[index]
+    parent.appendChild(element);
 }
