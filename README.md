@@ -1,8 +1,8 @@
 # HTML-Generator
-This JavaScript extension works mainly by embedding it within the "body" tag of the html file.
+This JavaScript extension works mainly by embedding it within the html file.
 
 ## Overview
-This JavaScript extension works mainly by embedding it within the "body" tag of the html file.
+This JavaScript extension works mainly by embedding it within the html file.
 
 
 ## Usage
@@ -12,7 +12,7 @@ https://html-generator.glitch.me/index.js
 
 2. Write the following script in <script> tag.
 
-composeElement(parentTag, index, childTag, type, name, cssText, input)
+composeElement(parentTag, index, childTag, type, name, cssText, input);
 
 
 ### *Description
