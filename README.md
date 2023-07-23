@@ -12,11 +12,13 @@ https://html-generator.glitch.me/index.js
 
 2. Write the following script in <script> tag.
 
-composeElement(tag, type, name, cssText, input);
+composeElement(parentTag, index, childTag, type, name, cssText, input)
 
 
 ### *Description
-* tag: It shows tag name like "h1", "p", "li", etc...
+* parentTag: It shows parent tag name like "head", "footer", "div", etc...
+
+* childTag: It shows child tag name like "h1", "p", "li", etc...
 
 * type: It shows attribute name like class, id, etc...
 
@@ -28,5 +30,7 @@ composeElement(tag, type, name, cssText, input);
 
 ## Information
 Published: 16th, Jul, 2023.
+
+Released latest: 23rd, Jul, 2023.
 
 Developer / Copyright: Hirotoshi Uchida
