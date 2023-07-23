@@ -34,16 +34,18 @@
         composeElement("body", 0, "h1", "id", "title", "margin: 0px; padding: 10px; background:linear-gradient(#f00,#0f0,#00f,#0ff,#f0f,#ff0,#fff);", "HTML Generator");
         composeElement("body", 0, "br", "id", "blank1", "margin:0px; padding: 0px;", "")
         composeElement("body", 0, "h2", "id", "overview", "margin: 0px; padding: 0px;", "Overview");
-        composeElement("body", 0, "p", "id", "show", "margin: 0px; padding: 0px;", "This JavaScript extension works mainly by embedding it within the <body> tag of the html file.");
+        composeElement("body", 0, "p", "id", "show", "margin: 0px; padding: 0px;", "This JavaScript extension works mainly by embedding it within the html file.");
         composeElement("body", 0, "br", "id", "blank2", "margin: 0px; padding: 0px;", "");
         composeElement("body", 0, "h2", "id", "how", "margin: 0px; padding: 0px;", "Usage");
         composeElement("body", 0, "li", "id", "li1", "margin: 0px; padding: 0px;", "load the following URL into the <script> tag.");
         composeElement("body", 0, "p", "id", "p1", "margin:0px; padding;0px;", "https://html-generator.glitch.me/index.js");
         composeElement("body", 0, "li", "id", "li2", "margin: 0px; padding: 0px;", "Write the following script in <script> tag.");
-        composeElement("body", 0, "body", 0, "p", "id", "p", "margin: 0px; padding: 0px", "composeElement(tag, type, name, cssText, input);");
+        composeElement("body", 0, "body", 0, "p", "id", "p", "margin: 0px; padding: 0px", "composeElement(parentTag, index, childTag, type, name, cssText, input);");
         composeElement("body", 0, "br", "id", "blank3", "margin: 0px; padding: 0px;", "");
         composeElement("body", 0, "strong", "id", "description", "margin: 0px; padding: 0px; font-style: italic;", "*Description");
-        composeElement("body", 0, "p", "id", "tag", "margin: 0px; padding: 0px; font-style: italic;", "tag: It shows tag name like <h1>, <p>, <li>, etc...");
+        composeElement("body", 0, "p", "id", "parentTag", "margin: 0px; padding: 0px; font-style: italic;", "parentTag: It shows tag name like <head>, <footer>, <div>, etc...");
+        composeElement("body", 0, "p", "id", "index", "margin: 0px; padding: 0px; font-style: italic;", "index: It shows number of parent tag regardless of whether there're multiple parentTags or not.");
+        composeElement("body", 0, "p", "id", "childTag", "margin: 0px; padding: 0px; font-style: italic;", "childTag: It shows child tag name like <h1>, <p>, <li>, etc...");
         composeElement("body", 0, "p", "id", "type", "margin: 0px; padding: 0px; font-style: italic;", "type: It shows attribute name like class, id, etc...");
         composeElement("body", 0, "p", "id", "name", "margin: 0px; padding: 0px; font-style: italic;", "name: It shows class name, id name, etc...");
         composeElement("body", 0, "p", "id", "cssText", "margin: 0px; padding: 0px; font-style: italic;", "cssText: It can be set css by writing the text.");
@@ -57,6 +59,7 @@
         composeElement("body", 0, "li", "id", `li${j}`, `margin: ${j}px; padding: ${j}px; border:solid ${j}px #${j}${j}${j}; background: conic-gradient(#${j*3}${j*3}${j},#${j*4}${j}${j*4},#${j}${j*2}${j*2}); color:#${j*4}; list-style-type:none;`, j);
         }
         composeElement("body", 0, "h3", "id", "published", "margin: 0px; padding: 0px;", "Published: 16th, Jul, 2023.");
+        composeElement("body", 0, "h3", "id", "released", "margin: 0px; padding: 0px;", "Released latest: 23rd, Jul, 2023.");
         composeElement("body", 0, "h3", "id", "copyright", "margin: 0px; padding: 0px;", "Developer / Copyright: Hirotoshi Uchida");
         composeElement("body", 0, "br", "id", "blank5", "margin: 0px; padding: 0px;", "");
     </script>
